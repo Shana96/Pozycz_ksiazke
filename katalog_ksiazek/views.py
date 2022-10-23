@@ -1,3 +1,11 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+def start(request):
+    # ad = get_object_or_404(CarAdveritsment, id=id)
+    return render(request,
+                  'index.html',
+                  # context={
+                  #     'ad': ad
+                  # }
+                  )
