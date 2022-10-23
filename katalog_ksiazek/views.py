@@ -1,11 +1,5 @@
-from django.shortcuts import render
+from django.http import HttpResponse
 
 
-def start(request):
-    # ad = get_object_or_404(CarAdveritsment, id=id)
-    return render(request,
-                  'index.html',
-                  # context={
-                  #     'ad': ad
-                  # }
-                  )
+def start():
+    return HttpResponse('Hello, world!')
