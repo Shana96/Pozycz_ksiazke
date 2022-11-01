@@ -20,5 +20,5 @@ from katalog_ksiazek.views import start
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('start', start)
+    path('', start)
 ]

@@ -1,0 +1,19 @@
+
+.navbar{
+    background-color: #580f10;
+    color: white;
+}
+.nav-link, a{
+    font-size:20px;
+}
+
+.col{
+    background-color: #580f10;
+    padding:50px;
+    font-size:30px;
+    color: #edf5df;
+    margin-left:30px;
+    margin-right:30px;
+}
+
+
